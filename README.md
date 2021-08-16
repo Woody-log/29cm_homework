@@ -74,7 +74,7 @@
 
 *Response
 * orderTotalPrice: 주문 총 가격
-* shippingPrice: 배송비용
+* shippingPrice: 배송비
 * title: 상품명
 * quantity: 주문수량
 <pre>
