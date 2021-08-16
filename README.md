@@ -19,15 +19,25 @@
   * 코드에 포함되어도 좋고, 파일을 불러도 되고, in memory db 를 사용하셔도 됩니다. 
   * 하지만 상품에 대한 상품번호, 상품명, 판매가격, 재고수량 데이터는 그대로 사용하셔 야 합니다.
   * 상품 데이터 csv 파일을 같이 제공합니다.
+***  
+
+
 ## Enviroment
 * Spring boot
 * JPA
 * H2
 ***
+
+
 ## Structure
+### Table
 ![img.png](img.png)
 
+### Entity
+![img_1.png](img_1.png)
 ***
+
+
 ## API
 ### Item List
 *URL
