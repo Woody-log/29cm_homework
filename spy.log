@@ -1,0 +1,2 @@
+1629091517439|0|rollback|connection 4|url jdbc:h2:mem:homework||
+1629091517455|0|rollback|connection 5|url jdbc:h2:mem:homework||
