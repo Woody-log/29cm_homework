@@ -21,9 +21,9 @@ public class HomeworkApplication implements CommandLineRunner {
     @Override
     public void run(String... args) {
         if (!environmentHelper.isTestProfiles()) {
-            /*FrontEnd frontEnd = new FrontEnd();
+            FrontEnd frontEnd = new FrontEnd();
             frontEnd.start();
-            SpringApplication.exit(applicationContext);*/
+            SpringApplication.exit(applicationContext);
         }
     }
 }
