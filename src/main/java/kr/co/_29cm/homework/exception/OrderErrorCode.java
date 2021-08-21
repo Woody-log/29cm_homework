@@ -17,7 +17,6 @@ public enum OrderErrorCode {
     private int code;
     private String description;
 
-
     public static OrderErrorCode getOrderErrorCode(int errorCode) {
         return Arrays.stream(values())
                 .filter(e -> e.findByEnum(errorCode))
